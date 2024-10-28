@@ -1,9 +1,9 @@
-mod actions;
-mod cancel;
-mod exchange_client;
+pub mod actions;
+pub mod cancel;
+pub mod exchange_client;
 mod exchange_responses;
 mod modify;
-mod order;
+pub mod order;
 
 pub use actions::*;
 pub use cancel::{
